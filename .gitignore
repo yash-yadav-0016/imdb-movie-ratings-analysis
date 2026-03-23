@@ -1,0 +1,83 @@
+# CSV Data Files (download from Kaggle, don't commit)
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+*.csv
+
+# Output Files (generated during analysis)
+*.png
+*.txt
+TMDB_ANALYSIS_REPORT.txt
+tmdb_regression_analysis.png
+
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Rprofile
+.Renviron
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python cache (if any Python scripts added later)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.local
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Large files that shouldn't be committed
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# System files
+Thumbs.db
+.Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Backup files
+*~
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+logs/
+
+# Node modules (if using any Node tools)
+node_modules/
+npm-debug.log
+
+# IDE-specific
+.vscode/settings.json
+.vscode/extensions.json
+
+# Java-related (if any Java tools)
+*.class
+*.jar
+build/
+target/
+
+# Keep directory structure
+!.gitkeep
+.gitkeep
